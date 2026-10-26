@@ -4,6 +4,7 @@ import VendorCard from "./components/VendorCard.jsx";
 import MenuList from "./components/MenuList.jsx";
 import Footer from "./components/Footer.jsx";
 import { Loading, ErrorMessage } from "./components/Status.jsx";
+import CartPage from "./components/CartPage.jsx";
 
 function App() {
   const [vendors, setVendors] = useState([]);
@@ -70,18 +71,18 @@ function App() {
     setCart((prev) => prev.filter((line) => line.item.id !== itemId));
   }
 
+  function handlePlaceOrder(details) {
+    // B5 fills this in
+  }
+
   let content;
   if (view === "cart") {
-    content = <p>Cart page goes here (B4).</p>;
-  } else if (view === "done") {
-    content = <p>Order placed.</p>;
-  } else if (loading) {
-    content = <Loading />;
-  } else if (error) {
     content = (
-      <ErrorMessage
-        message={error}
-        onRetry={() => setReloadKey((k) => k + 1)}
+      <CartPage
+        cart={cart}
+        onChangeQty={handleChangeQty}
+        onRemove={handleRemove}
+        onPlaceOrder={handlePlaceOrder}
       />
     );
   } else {
