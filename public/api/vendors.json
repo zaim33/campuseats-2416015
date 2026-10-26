@@ -2,7 +2,7 @@
   {
     "id": "2416015-BurgerCrysHappy",
     "name": "BurgerCrysHappy",
-    "location": "Mahallah Zubair, Block E",
+    "location": "Mahallah Zubair",
     "openHours": "7:00 am - 10:00 pm",
     "isOpen": true,
     "menu": [
@@ -75,7 +75,7 @@
   {
     "id": "2416016-kafeJaya",
     "name": "kafe Jaya",
-    "location": "Tun Razak education complex, Ground Floor",
+    "location": "MAHALLAH FARUQ",
     "openHours": "6:00 pm - 2:00 am",
     "isOpen": true,
     "menu": [
@@ -142,6 +142,80 @@
         "price": 6,
         "category": "Side Dish",
         "available": true
+      }
+    ]
+  },
+  {
+    "id": "2518745-Sedap Corners",
+    "name": "Cafe Mahallah Siddiq",
+    "location": "Mahallah Siddiq, Upper Floor",
+    "openHours": "7:00 am - 11:30 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2518745-sid-1",
+        "name": "Chicken Chop",
+        "description": "Deep-fried chicken thigh or breast with black pepper sauce, french fries, and coleslaw",
+        "price": 7.5,
+        "category": "Western",
+        "available": true,
+        "special": true
+      },
+      {
+        "id": "2518745-sid-2",
+        "name": "Kuey Teow Sup",
+        "description": "Flat rice noodle soup with chicken slices",
+        "price": 6.0,
+        "category": "Noodles",
+        "available": true
+      },
+      {
+        "id": "2518745-sid-3",
+        "name": "Nasi Ayam Gepuk",
+        "description": "Lightly smashed fried chicken with Fried tempeh, sambal kacang, and rice",
+        "price": 6.0,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2518745-sid-4",
+        "name": "Nasi Lemak Ayam",
+        "description": "Fragrant coconut rice with spiced fried chicken",
+        "price": 8.5,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2518745-sid-5",
+        "name": "Nasi Goreng Kampung",
+        "description": "Traditional fried rice with anchovies and kangkung",
+        "price": 7.0,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2518745-sid-6",
+        "name": "Nasi Kukus Ayam Berempah",
+        "description": "Steamed rice served with aromatic curry and chicken",
+        "price": 8.5,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2518745-sid-7",
+        "name": "Teh Tarik",
+        "description": "Classic Malaysian pulled milk tea",
+        "price": 2.5,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2518745-sid-8",
+        "name": "Teh Ais",
+        "description": "iced milk tea served cold with ice.",
+        "price": 2.5,
+        "category": "Drinks",
+        "available": false
       }
     ]
   }

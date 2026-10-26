@@ -72,7 +72,13 @@ function App() {
   }
 
   function handlePlaceOrder(details) {
-    // B5 fills this in
+    const total = cart.reduce(
+      (sum, line) => sum + line.item.price * line.qty,
+      0,
+    );
+    setLastOrder({ ...details, total });
+    setCart([]);
+    setView("done");
   }
 
   let content;
@@ -83,6 +89,29 @@ function App() {
         onChangeQty={handleChangeQty}
         onRemove={handleRemove}
         onPlaceOrder={handlePlaceOrder}
+      />
+    );
+  } else if (view === "done") {
+    content = (
+      <section className="card">
+        <h2>Order placed</h2>
+        <p>
+          Thank you, {lastOrder.name}. Pick up at {lastOrder.pickupTime}{" "}
+          (Mahallah {lastOrder.mahallah}). Total RM {lastOrder.total.toFixed(2)}
+          .
+        </p>
+        <button className="btn" onClick={() => setView("menu")}>
+          Back to menus
+        </button>
+      </section>
+    );
+  } else if (loading) {
+    content = <Loading />;
+  } else if (error) {
+    content = (
+      <ErrorMessage
+        message={error}
+        onRetry={() => setReloadKey((k) => k + 1)}
       />
     );
   } else {
