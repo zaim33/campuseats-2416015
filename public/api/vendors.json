@@ -7,7 +7,7 @@
     "isOpen": true,
     "menu": [
       {
-        "id": "fmy-1",
+        "id": "2416015-fmy-1",
         "name": "Burger crispy special",
         "description": "Crispy patty,egg",
         "price": 7.5,
@@ -15,7 +15,7 @@
         "available": true
       },
       {
-        "id": "fmy-2",
+        "id": "2416015-fmy-2",
         "name": "Burger crispy",
         "description": "crispy patty",
         "price": 6,
@@ -23,7 +23,7 @@
         "available": true
       },
       {
-        "id": "dmy-1",
+        "id": "2416015-dmy-1",
         "name": "Teh ice",
         "description": "in M size cup",
         "price": 2.5,
@@ -31,7 +31,7 @@
         "available": false
       },
       {
-        "id": "dmy-2",
+        "id": "2416015-dmy-2",
         "name": "Lemon tea ice",
         "description": "in M size cup",
         "price": 2.5,
@@ -39,7 +39,7 @@
         "available": true
       },
       {
-        "id": "dmy-3",
+        "id": "2416015-dmy-3",
         "name": "Coke",
         "description": "in M size cup",
         "price": 2.5,
@@ -47,7 +47,7 @@
         "available": true
       },
       {
-        "id": "smy-1",
+        "id": "2416015-smy-1",
         "name": "TrinoSausage",
         "description": "3 Jumbo sausages with special sauce",
         "price": 6,
@@ -55,7 +55,7 @@
         "available": true
       },
       {
-        "id": "smy-2",
+        "id": "2416015-smy-2",
         "name": "French Fries",
         "description": "Crispy fried potatoes",
         "price": 4.5,
@@ -63,7 +63,7 @@
         "available": true
       },
       {
-        "id": "smy-3",
+        "id": "2416015-smy-3",
         "name": "Nuggets",
         "description": "Crispy chicken nuggets",
         "price": 3,
@@ -80,7 +80,7 @@
     "isOpen": true,
     "menu": [
       {
-        "id": "mami-1",
+        "id": "2416016-mami-1",
         "name": "Nasi Ayam Penyet",
         "description": "Smashed fried chicken with sambal and rice",
         "price": 9,
@@ -88,7 +88,7 @@
         "available": true
       },
       {
-        "id": "mami-2",
+        "id": "2416016-mami-2",
         "name": "Nasi Ayam Gepuk",
         "description": "Smashed fried chicken with sambal and rice",
         "price": 8,
@@ -96,7 +96,7 @@
         "available": true
       },
       {
-        "id": "mami-3",
+        "id": "2416016-mami-3",
         "name": "Nasi USA",
         "description": "Fried rice with beef, egg, and vegetables",
         "price": 9,
@@ -104,7 +104,7 @@
         "available": true
       },
       {
-        "id": "dami-1",
+        "id": "2416016-dami-1",
         "name": "Air Bandung",
         "description": "Rose syrup with milk",
         "price": 3,
@@ -112,7 +112,7 @@
         "available": true
       },
       {
-        "id": "dami-2",
+        "id": "2416016-dami-2",
         "name": "Teh Tarik",
         "description": "Pulled tea with milk",
         "price": 2.5,
@@ -120,7 +120,7 @@
         "available": true
       },
       {
-        "id": "dami-3",
+        "id": "2416016-dami-3",
         "name": "Milo Ais",
         "description": "Iced Milo drink",
         "price": 3,
@@ -128,7 +128,7 @@
         "available": true
       },
       {
-        "id": "sami-1",
+        "id": "2416016-sami-1",
         "name": "Keropok Lekor",
         "description": "Keropok lekor losong ",
         "price": 5,
@@ -136,7 +136,7 @@
         "available": true
       },
       {
-        "id": "sami-2",
+        "id": "2416016-sami-2",
         "name": "Popcorn Chicken",
         "description": "Crispy fried chicken bites",
         "price": 6,
