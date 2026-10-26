@@ -5,6 +5,7 @@ import MenuList from "./components/MenuList.jsx";
 import Footer from "./components/Footer.jsx";
 import { Loading, ErrorMessage } from "./components/Status.jsx";
 import CartPage from "./components/CartPage.jsx";
+import DailySpecial from "./components/DailySpecial.jsx";
 
 function App() {
   const [vendors, setVendors] = useState([]);
@@ -117,6 +118,9 @@ function App() {
   } else {
     content = (
       <>
+        {selectedVendor && (
+          <DailySpecial item={selectedVendor.menu[0]} onAdd={handleAddToCart} />
+        )}
         <section>
           <h2 className="section-title">Choose a vendor</h2>
           <div className="vendor-grid">

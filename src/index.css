@@ -536,3 +536,7 @@ a.card:hover {
 .error {
   border-left: 4px solid #b3261e;
 }
+.special {
+  margin-bottom: 1rem;
+  border-left: 4px solid #00695c;
+}
